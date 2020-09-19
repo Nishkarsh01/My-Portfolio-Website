@@ -1,0 +1,61 @@
+<%- include("header2.ejs")-%>
+
+<section class="ftco-section" id="blog-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-5">
+            <div class="col-md-7 heading-section text-center ftco-animate">
+                <h1 class="big big-2">Blog</h1>
+                <h2 class="mb-4">Blog</h2>
+                <p>In my mind, as long as you learn something new each day, stretch your personal frontiers and
+                    improve the way you think, you cannot grow old.</p>
+            </div>
+        </div>
+        <div class="row d-flex">
+        <% postsArray.forEach(post => {%>
+       
+            <div class="col-md-4 d-flex ftco-animate">
+                <div class="blog-entry justify-content-end">
+                    <a href="/<%= post.title %>" class="block-30" style="background-image: url('<%=post.image%>');">
+                    </a>
+                    <div class="text mt-3 float-right d-block">
+
+                        <h3 class="heading"><a href="/<%= post.title %>"><%= post.title%></a></h3>
+                        <div class="d-flex align-items-center mb-3 meta">
+                            <p class="mb-0">
+
+                                <a href="/login" class="mr-2">Admin</a>
+
+                            </p>
+                        </div>
+
+                        
+                        <% if( post.body1.length > 100){ %>
+
+                            <% let lessContent=post.body1.substring(0, 100); %>
+                            <p> <%=lessContent %> <a href="/<%= post.title %>" >...Read More</a></p>
+                            
+                            <% } else  { %>
+                            <p><%=post.body1 %></p>
+                            <p><%=post.body2 %></p>
+                            <p><%=post.body3 %></p>
+                            <p><%=post.body4 %></p>
+                            <p><%=post.body5 %></p>
+                            <p><%=post.body6 %></p>
+                            <p><%=post.body7 %></p>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        
+        <%});%>
+    </div>
+
+       
+            
+    </div>
+</section>
+
+
+
+
+<%- include("footer") -%> 
