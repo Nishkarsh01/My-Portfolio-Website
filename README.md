@@ -1,13 +1,13 @@
-# Build a Portfolio 😄
+# Build a Portfolio 
 This is a Responsive Portfolio Website made with Boostrap, Javascript, NodeJS, ExpressJS and MongoDB. It has a working blog in it. Feel free to copy, get ideas, no copyright issues. 
 
-## Author 🧔
+## Author 
 > Nishkarsh Dubb
 
 ## Screenshots 📷
 ![Website Screenshot](screenshots/1.gif)
 
-## Live Demo 🍃
+## Live Demo 
 
  [http://nishkarshdubb-fullstack.herokuapp.com/](http://nishkarshdubb-fullstack.herokuapp.com/)
 
@@ -20,4 +20,41 @@ This is a Responsive Portfolio Website made with Boostrap, Javascript, NodeJS, E
 + [Nodejs](https://nodejs.org/en/)
 + [Express](http://expressjs.com/)
 + [MongoDB](https://www.mongodb.com/)
+
+
+
+
+
+## Installation or Getting Started
+
+Run the following command in the terminal:
+
+	git clone https://github.com/Nishkarsh01/My-Portfolio-Website.git
+or download the zip file from github.
+    
+
+## Usage
+After extracting the files,
+
+    cd My-Portfolio-Website
+    npm install 
+    node app.js
+
+## Collaborate
+To collaborate, reach me on [nishdubb11@gmail.com]()
+
+## Further help/Reference
+
++ [MDN Web Docs](https://developer.mozilla.org/en-US/)
++ [getbootstrap.com](https://getbootstrap.com/)
++ [nodejs.org](https://nodejs.org/en/)
++ [expressjs.com](http://expressjs.com/)
++ [mongodb.com](https://www.mongodb.com/)
++ [w3schools.com](https://www.w3schools.com/)
+    
+
+
+
+
+
 
