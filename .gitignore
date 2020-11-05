@@ -1,5 +1,1 @@
-/node_modules
-npm-debug.log
-.DS_Store
-password.txt
-/*.env
+node_modules/
