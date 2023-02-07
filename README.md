@@ -7,10 +7,6 @@ This is a Responsive Portfolio Website made with Boostrap, Javascript, NodeJS, E
 ## Screenshots 📷
 ![Website Screenshot](screenshots/1.gif)
 
-## Live Demo 
-
- [http://nishkarshdubb-fullstack.herokuapp.com/](http://nishkarshdubb-fullstack.herokuapp.com/)
-
 ## Developed Using 💻
 
 + [Html](https://developer.mozilla.org/en-US/docs/Web/HTML)
